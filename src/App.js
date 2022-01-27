@@ -7,7 +7,7 @@ class App extends Component {
     step: 1
    } 
 
-   stepMap = [1,2,3]
+   stepMap = [1,2,3,4]
    handleNext=()=> {
      this.setState({step: this.state.step + 1})
    }
